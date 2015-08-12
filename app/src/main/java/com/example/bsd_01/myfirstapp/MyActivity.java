@@ -1,3 +1,4 @@
+// Create a package for providing access protection
 package com.example.bsd_01.myfirstapp;
 
 import android.content.Intent;

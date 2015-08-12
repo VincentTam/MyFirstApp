@@ -17,6 +17,9 @@ public class DisplayMessageActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String message = intent.getStringExtra(MyActivity.EXTRA_MESSAGE);
 
+        // Insert "Hello, " in the beginning of the message
+        message = "Hello, " + message;
+
         // Create the text view
         TextView textView = new TextView(this);
         textView.setTextSize(40);
